@@ -64,15 +64,16 @@ public class MainActivity extends AppCompatActivity implements ICurrencyExchange
     {
         exchange = EasyExchangeManager.getInstance().getLastKnownExchange();
         Log.d(TTAG , "Exchanged "+ exchange.getFromAmount() +" "
-                + exchange.getFromCurrency() + " To: " + exchange.getToAmount() + " "+ exchange.getToCurrency() );
+                + exchange.getFromCurrency() + " To: " + exchange.getToAmount() 
+		+ " "+ exchange.getToCurrency() );
     }
 
     @Override
     public void onExchangeFailed(ICurrencyExchange exchange, Throwable reason)
     {
         Log.e(TAG , "Failed Exchanged "+ exchange.getFromAmount() +" "
-                + exchange.getFromCurrency() + " To: " + exchange.getToAmount() + " "+ exchange.getToCurrency()
-        + " Reason: " + reason);
+                + exchange.getFromCurrency() + " To: " + exchange.getToAmount() 
+		+ " "+ exchange.getToCurrency() + " Reason: " + reason);
     }
 }
 ```
