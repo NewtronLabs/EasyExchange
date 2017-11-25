@@ -50,7 +50,8 @@ Implement the `ICurrencyExchangeCallback`
 public class MainActivity extends AppCompatActivity implements ICurrencyExchangeCallback
 {
     public static final String TAG = "EasyExchange";
-	@Override
+    
+    @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
