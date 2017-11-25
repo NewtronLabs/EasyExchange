@@ -56,7 +56,8 @@ public class MainActivity extends AppCompatActivity implements ICurrencyExchange
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // Exchange from US Dollars to Australian Dollars
-        EasyExchangeManager.getInstance().performExchange(EasyCurrency.USD, EasyCurrency.AUD, 100, this);
+        EasyExchangeManager.getInstance()
+	      .performExchange(EasyCurrency.USD, EasyCurrency.AUD, 100, this);
     }
 
     @Override
