@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements ICurrencyExchange
 }
 ```
 
-## Supported Languages
+## Supported Currencies
 * AED - United Arab Emirates Dirham
 * AFN - Afghan Afghani
 * ALL - Albanian Lek
