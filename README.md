@@ -42,7 +42,7 @@ In the `build.gradle` of your app.
 
 ```gradle
 dependencies {
-    provided 'com.newtronlabs.easyexchange:easyexchange:1.0.0'
+    provided 'com.newtronlabs.easyexchange:easyexchange:1.1.0'
 }
 ```
 
