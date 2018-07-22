@@ -1,7 +1,3 @@
-Please take a few minutes and let us know how we are doing by filling out this survey: https://goo.gl/forms/97TYeG6Wx5CA4lBV2
-
----
-
 # Easy Exchange
 
 The Easy Exchange library brings quick and easy currency exchange to Android. 
@@ -267,4 +263,4 @@ You are solely responsible for determining the appropriateness of using Easy Exc
 
 ## Contact
 
-contact@newtronlabs.com
+solutions@newtronlabs.com
