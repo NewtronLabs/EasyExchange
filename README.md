@@ -17,8 +17,8 @@ buildscript {
         maven { url "http://code.newtronlabs.com:8081/artifactory/libs-release-local" }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
-        classpath "com.newtronlabs.android:plugin:1.1.0"
+        classpath 'com.android.tools.build:gradle:3.1.3'
+        classpath 'com.newtronlabs.android:plugin:2.0.1'
     }
 }
 
@@ -38,7 +38,7 @@ In the `build.gradle` of your app.
 
 ```gradle
 dependencies {
-    provided 'com.newtronlabs.easyexchange:easyexchange:1.2.0'
+    compileOnly 'com.newtronlabs.easyexchange:easyexchange:1.2.0'
 }
 ```
 
