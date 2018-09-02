@@ -38,7 +38,7 @@ In the `build.gradle` of your app.
 
 ```gradle
 dependencies {
-    compileOnly 'com.newtronlabs.easyexchange:easyexchange:1.2.0'
+    compileOnly 'com.newtronlabs.easyexchange:easyexchange:1.2.1'
 }
 ```
 
